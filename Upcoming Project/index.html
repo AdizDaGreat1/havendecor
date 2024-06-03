@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand align-items-center" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center align-items-center gap-5" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Living Room Design</a></li>
+            <li><a class="dropdown-item" href="#">Bedroom Design</a></li>
+            <li><a class="dropdown-item" href="#">Outdoor Design</a></li>
+            <li><a class="dropdown-item" href="#">Office Design</a></li>
+            <li><a class="dropdown-item" href="#">Kitchen Design</a></li>
+            <li><a class="dropdown-item" href="#">Dinning Design</a></li>
+          </ul>
+        </li>
+       </ul>
+    </div>
+  </div>
+  <div class="row gap-2 me-3 ms-1 justify-sm-center">
+    <button type="button" class="btn btn-outline-primary btn-sm col align-items-center">Log-in</button>
+    <button  type="button" class="btn btn-primary btn-sm col align-items-center" style="width: 150px;">Sign-up</button>
+  </div>
+</nav>
+<!-- main -->
+<main class="position-sticky">
+  <!-- hero -->
+<div id="carouselExampleCaptions" class="carousel slide mt-2">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/Hero images/furnished-modern-living-room-wall-mockup_872147-17580.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Best Home Design</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/Hero images/Hero imag.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Where Your Comfort Matters</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/Hero images/Background image.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="fs-sm-6">Always There For Your Happiness</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- living room design -->
+<div class="container-fluid mt-4">
+  <div class="">
+    <div class="text-center mb-0">
+      <h3>Living Room Design</h3>
+    </div>
+  </div>
+  <div class="d-lg-flex d-md-inline-flex justify-content-center gap-4">
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Living room images/3d-modern-lounge-interior-with-blank-picture-frame.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Minimalist Living Room Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 500,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Living room images/illustration-living-room-interior.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Modern Living Room Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 900,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Living room images/illustration-living-room-interior_252025-128444.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title  fw-bold">Luxurious Living Room Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 1,500,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="text-center">
+    <a href="living.html" class="icon-link fw-bold mt-3"><p>See More</p></a>
+  </div>
+</div>
+<!-- bedroom designs -->
+<div class="container-fluid mt-4">
+  <div class="">
+    <div class="text-center mb-0">
+      <h3>Bedroom Design</h3>
+    </div>
+  </div>
+  <div class="d-lg-flex d-md-inline-flex justify-content-center gap-4 align-items-center">
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Bed room images/cozy-bedroom-hotel-room-with-double-bed-wooden-furniture_176382-1530.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Minimalist Bedroom Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 450,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Bed room images/illustration-bedroom-interior_252025-37208.jpg" class="card-img-top" height="190" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Modern Bedroom Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 1,000,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold align-items-end">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Bed room images/realistic-bright-modern-double-bedroom-with-furniture_176382-444.jpg" class="card-img-top" height="170" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title  fw-bold">Luxurious Bedroom Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 2,500,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="text-center">
+    <a href="bedroom.html" class="icon-link fw-bold mt-3"><p>See More</p></a>
+  </div>
+</div>
+<!-- kitchen design -->
+<div class="container-fluid mt-4">
+  <div class="">
+    <div class="text-center mb-0">
+      <h3>Kitchen Design</h3>
+    </div>
+  </div>
+  <div class="d-lg-flex d-md-inline-flex justify-content-center gap-4 align-items-center">
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Kitchen images/modern-kitchen-interior-design_23-2150772053.jpg" class="card-img-top" height="210" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Individual Kitchen Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 150,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Kitchen images/kitchen-interior_1048-8217.jpg" class="card-img-top" height="190" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Minimalist Bedroom Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 300,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Kitchen images/close-up-metallic-kitchen_23-2151113203.jpg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title  fw-bold">Luxurious Bedroom Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 2,500,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="text-center">
+    <a href="kitchen.html" class="icon-link fw-bold mt-3"><p>See More</p></a>
+  </div>
+</div>
+<!-- dinning design -->
+<div class="container-fluid mt-4">
+  <div class="">
+    <div class="text-center mb-0">
+      <h3>Dinning Design</h3>
+    </div>
+  </div>
+  <div class="d-lg-flex d-md-inline-flex justify-content-center gap-4 align-items-center">
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Dining images/room-interior-design_23-2148899450.jpg" class="card-img-top" height="230"  alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Minimalist Dinning Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 150,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Dining images/illustration-dining-room-interior_252025-189517.jpg" class="card-img-top" height="210" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Modern Six Seeater Dinning Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 400,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Dining images/interior-shot-luxurious-house-dining-room_181624-10412.jpg" class="card-img-top" height="235" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title  fw-bold">Luxurious Dinning Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 700,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="text-center">
+    <a href="dinning.html" class="icon-link fw-bold mt-3"><p>See More</p></a>
+  </div>
+</div>
+<!-- office design -->
+<div class="container-fluid mt-4">
+  <div class="">
+    <div class="text-center mb-0">
+      <h3>Office Design</h3>
+    </div>
+  </div>
+  <div class="d-lg-flex d-md-inline-flex justify-content-center gap-4 align-items-center">
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Office images/minimal-home-office-interior-design-with-fiddle-leaf-fig-plant_53876-128660.jpg" class="card-img-top" height="230"  alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Minimalist Home Office Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 250,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Office images/modern-office_692498-5442.jpg" class="card-img-top" height="210" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Modern Office Space Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 500,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Office images/luxurious-office-with-modern-furnishings-architecture_7023-482322.jpg" class="card-img-top" height="235" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title  fw-bold">Luxurious Office Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 1,300,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="text-center">
+    <a href="dinning.html" class="icon-link fw-bold mt-3"><p>See More</p></a>
+  </div>
+</div>
+<!-- outdoor design -->
+<div class="container-fluid mt-4">
+  <div class="">
+    <div class="text-center mb-0">
+      <h3>Outdoor Design</h3>
+    </div>
+  </div>
+  <div class="d-lg-flex d-md-inline-flex justify-content-center gap-4 align-items-center">
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Outdoor images/green-garden-with-outdoor-furniture-lounge-group-with-rattan.jpg" class="card-img-top" height="230"  alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Small Outdoor Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 200,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Outdoor images/empty-chairs-tables-park.jpg" class="card-img-top" height="210" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Minimalist Outdoor Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 500,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+    <div class="card mx-auto mt-4" style="width: 18rem;">
+      <img src="/images/Outdoor images/high-quality-digital-image-wallpaper-background.jpg" class="card-img-top" height="235" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title  fw-bold">Luxurious Outdoor Design</h5>
+        <p class="card-text fw-bold"><span>&#8358</span> 1,500,000</p>
+        <a href="#"><button type="button" class="btn btn-primary justify-content-center fw-bold">BOOk</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="text-center">
+    <a href="dinning.html" class="icon-link fw-bold mt-3"><p>See More</p></a>
+  </div>
+</div>
+</main>
+<footer style="background-color: #0B5DD5;" class="pt-md-5 pt-sm-3 pb-2">
+  <div class="d-md-flex justify-content-evenly pb-5 ms-2 mb-3">
+     <div>
+       <h4 class="text-light">Content</h4>
+       <p><a href="" style="text-decoration: none;" class="text-light">Products</a></p>
+       <p><a href="" style="text-decoration: none;" class="text-light">New Assests</a></p>
+       <p><a href="" style="text-decoration: none;" class="text-light">Blog</a></p>
+     </div>
+     <div>
+      <h4 class="text-light">Information</h4>
+      <p><a href="" style="text-decoration: none;" class="text-light">About Us</a></p>
+      <p><a href="" style="text-decoration: none;" class="text-light">Pricing</a></p>
+      <p><a href="" style="text-decoration: none;" class="text-light">Jobs</a></p>
+    </div>
+    <div>
+      <div>
+        <h4 class="text-light">Legal</h4>
+        <p><a href="" style="text-decoration: none;" class="text-light">Terms Of Use</a></p>
+        <p><a href="" style="text-decoration: none;" class="text-light">Privacy Policy</a></p>
+        <p><a href="" style="text-decoration: none;" class="text-light">Cookies Policy</a></p>
+      </div>
+      <div>
+        <h4 class="text-light">Support</h4>
+        <p><a href="" style="text-decoration: none;" class="text-light">FAQ</a></p>
+        <p><a href="" style="text-decoration: none;" class="text-light">Contact</a></p>
+        <p><a href="" style="text-decoration: none;" class="text-light">Search Guide</a></p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h4 class="text-light">Social Media</h4>
+        <div class="d-flex align-items-center gap-3">
+        <p><a href="https://WWW.facebook.com" style="text-decoration: none;" class="text-light"><img src="/images/social media/logo-facebook (1).svg" width="30" alt=""></a></p>
+        <p><a href="https://WWW.instagram.com" style="text-decoration: none;" class="text-light"><img src="/images/social media/logo-instagram (1).svg" width="30" alt=""></a></p>
+        <p><a href="https://WWW.pinterest.com" style="text-decoration: none;" class="text-light"><img src="/images/social media/logo-pinterest (1).svg" width="30" alt=""></a></p>
+        <p><a href="https://WWW.twitter.com" style="text-decoration: none;" class="text-light"><img src="/images/social media/logo-twitter (3).svg" width="30" alt=""></a></p>
+        <p><a href="https://WWW.whatsapp.com" style="text-decoration: none;" class="text-light"><img src="/images/social media/logo-whatsapp.svg" width="30" alt=""></a></p>
+        </div>
+      </div>
+      <div>
+        <p style="color: #a0a0a0;">Get exclusive assests sent straight to your inbox</p>
+          <button  type="button" class="btn btn-primary btn-sm col align-items-center" style="width: 120px;">Sign-up</button>
+      </div>
+    </div>
+  </div>
+  <hr style="color: white;" width="1345"> 
+  <div class="d-md-flex align-items-end justify-content-between ms-2 mb-3">
+    <div>
+      <h1>LOGO</h1>
+    </div>
+    <div>
+      <p class="text-light">Copyright © 2010-2024 Freepik Company S.L. All rights reserved.
+      </p>
+    </div>
+    <div class="me-5">
+      <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-outline-light border rounded" data-bs-toggle="dropdown" aria-expanded="false">
+    English
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">English</a></li>
+    <li><a class="dropdown-item" href="#">Japanese</a></li>
+    <li><a class="dropdown-item" href="#">French</a></li>
+    <li><a class="dropdown-item" href="#">Chinese</a></li>
+  </ul>
+  </div>
+  </div>
+ </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
